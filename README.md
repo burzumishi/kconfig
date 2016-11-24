@@ -1,30 +1,30 @@
         Kconfig release 4.x <from http://kernel.org/>
 
-These are the release notes for Kconfig version 4.  Read them carefully,
-as they tell you what this is all about, explain how to install the
-kernel, and what to do if something goes wrong.
+These are the release notes for Kconfig version 4.
+
+Read them carefully, as they tell you what this is all about, explain how
+to install the kernel, and what to do if something goes wrong.
 
 
-WHAT IS Kconfig?
+# WHAT IS Kconfig?
 
   Kconfig is the Linux kernel build system.
 
   It has all the features you would expect in the kernel build system.
 
-  It is distributed under the GNU General Public License - see the
+  It is distributed under the GNU General Public License - see the 
   accompanying COPYING file for more details.
 
 
-DOCUMENTATION (TODO):
+# DOCUMENTATION (TODO):
 
  - See Documentation/kconfig
 
 
 USING Kconfig sources:
 
- - If you install the full sources, put Kconfig tarball in a
-   directory where you have permissions (e.g. your home directory) and
-   unpack it:
+ - If you install the full sources, put Kconfig tarball in a directory 
+   where you have permissions (e.g. your home directory) and unpack it:
 
      xz -cd kconfig-4.X.tar.xz | tar xvf -
 
